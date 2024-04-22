@@ -12,7 +12,8 @@ float EnterNumberB(float B)
 }
 float OperationMultip(float A, float B, float res)
 {
-
+    res = A * B;
+    return res;
 }
 float OperationDiv(float A, float B, float res)
 {

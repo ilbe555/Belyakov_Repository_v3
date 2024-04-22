@@ -2,7 +2,8 @@
 using namespace std;
 float EnterNumberA(float A)
 {
-
+    cin >> A;
+    return A;
 }
 float EnterNumberB(float B)
 {

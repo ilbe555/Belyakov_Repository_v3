@@ -6,7 +6,8 @@ float EnterNumberA(float A)
 }
 float EnterNumberB(float B)
 {
-
+    cin >> B;
+    return B;
 }
 float OperationMultip(float A, float B, float res)
 {

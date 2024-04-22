@@ -14,7 +14,16 @@ float OperationMultip(float A, float B, float res)
 }
 float OperationDiv(float A, float B, float res)
 {
-
+    if (B != 0)
+    {
+        res = A / B;
+        return res;
+    }
+    else
+    {
+        cout << "ERROR";
+        return 0;
+    }
 }
 int main()
 {
